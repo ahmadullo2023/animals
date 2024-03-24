@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../common/onboarding.dart';
+import '../common/onboarding.dart';
 import '../screens/home.dart';
 
 class OnboardingPage extends StatefulWidget {
@@ -61,7 +61,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                               0.5, // Set the opacity value here (0.0 to 1.0).
                           child: Container(
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.only(
+                              borderRadius: const BorderRadius.only(
                                 bottomRight: Radius.circular(30),
                                 bottomLeft: Radius.circular(30),
                               ),
