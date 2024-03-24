@@ -18,7 +18,7 @@ List<OnboardingContents> contents = [
   ),
   OnboardingContents(
     title: "Stay organized with team",
-    image: "assets/image/scale_1200.jpg",
+    image: "assets/image/istockphoto-1052199106-170667a.jpg",
     desc: "But understanding the contributions our colleagues",
   ),
   OnboardingContents(

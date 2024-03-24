@@ -75,6 +75,19 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           ),
                         ),
                       ),
+                      Align(
+                        alignment: Alignment.bottomCenter,
+                        child: Text(
+                          contents[i].desc,
+                          style: const TextStyle(
+                            color: Colors.white,
+                            fontFamily: "Mulish",
+                            fontWeight: FontWeight.w300,
+                            fontSize: 25,
+                          ),
+                          textAlign: TextAlign.center,
+                        )
+                      ),
                       Text(
                         contents[i].title,
                         textAlign: TextAlign.center,
@@ -85,16 +98,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           fontSize: 35,
                         ),
                       ),
-                      Text(
-                        contents[i].desc,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontFamily: "Mulish",
-                          fontWeight: FontWeight.w300,
-                          fontSize: 25,
-                        ),
-                        textAlign: TextAlign.center,
-                      )
                     ],
                   );
                 },
