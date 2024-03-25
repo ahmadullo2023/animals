@@ -23,8 +23,8 @@ List<OnboardingContents> contents = [
   ),
   OnboardingContents(
     title: "Get notified when work happens",
-    image: "assets/image/scale_1200.jpg",
-    desc: "Take control of notifications, collaborate live or on your own time.",
+    image: "assets/image/elephant-image-hd-free-photo.jpg",
+    desc: "Take control of notifications, collaborate live or your time.",
   ),
 ];
 

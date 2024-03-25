@@ -88,16 +88,6 @@ class _OnboardingPageState extends State<OnboardingPage> {
                           textAlign: TextAlign.center,
                         )
                       ),
-                      Text(
-                        contents[i].title,
-                        textAlign: TextAlign.center,
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontFamily: "Mulish",
-                          fontWeight: FontWeight.w600,
-                          fontSize: 35,
-                        ),
-                      ),
                     ],
                   );
                 },
@@ -133,7 +123,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
                             },
                             child: Text("START"),
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.black,
+                              backgroundColor: Colors.white,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(50),
                               ),
